@@ -1,11 +1,12 @@
 /*
  * APS105 Lab1
  * Developing a simple C program
+ * This lab just asks to print the content as shown in the code below.
  */
 
 /* 
  * File:   main.c
- * Author: tianxiangchen
+ * Author: TianxiangChen
  *
  * Created on August 5, 2017, 9:38 PM
  */
