@@ -1,0 +1,54 @@
+P
+I
+San Chong Men
+Han Han
+7
+F
+I
+1988,Wo xiang he zhe ge shi jie tan tan
+Han Han
+8
+F
+I
+San Ge Dai Biao
+Jiang Zemin
+5
+P
+I
+Shi Ji
+Sima Qian
+8
+H
+I
+Tang Shi San Bai Shou
+Unknown
+7
+A
+I
+Cangjing Kong Xie Zhen Ji
+CangJing Kong
+5
+A
+P
+V
+8
+V
+7
+V
+6
+D
+Shanghai Xiao Bao Bei
+P
+D
+Shi Ji
+P
+D
+San Chong Men
+P
+S
+San Chong Men
+S
+San Ge Dai Biao
+P
+Q
+
