@@ -2,11 +2,13 @@
  * APS105 Lab2
  * Part2--Decipher
  * abcd-->d(9-b(9-c)a)
+ * User will input the encrypted number and the system
+ * need to output the original number
  */
 
 /* 
  * File:   main.c
- * Author: tianxiangchen
+ * Author: TianxiangChen
  *
  * Created on August 5, 2017, 10:11 PM
  */

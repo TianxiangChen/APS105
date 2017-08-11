@@ -1,11 +1,14 @@
 /*
  * APS105 Lab3
  * Part2--Substance Test
+ * The user input an observed boiling point and threshold value.
+ * The program will return which substance it is.
+ * The boiling point table is defined below.
  */
 
 /* 
  * File:   main.c
- * Author: tianxiangchen
+ * Author: TianxiangChen
  *
  * Created on August 6, 2017, 12:20 AM
  */
@@ -17,11 +20,11 @@
  * 
  */
 int main(int argc, char** argv) {
-    const int water=100,
-            mercury=357,
-            copper=1187,
-            sliver=2193,
-            gold=2660;
+    const int   water=100,
+                mercury=357,
+                copper=1187,
+                sliver=2193,
+                gold=2660;
     int threhold, boil_point;
     
     printf("Enter the threshold in celsius: ");

@@ -2,11 +2,12 @@
  * APS105 Lab2
  * Part1--Car Rental
  * 1 day within each 4-day block is free
+ * Count for HST, which is 13%
  */
 
 /* 
  * File:   main.c
- * Author: tianxiangchen
+ * Author: TianxiangChen
  *
  * Created on August 5, 2017, 9:53 PM
  */

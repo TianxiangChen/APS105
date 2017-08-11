@@ -1,11 +1,14 @@
 /*
  * APS105 Lab3
  * Part3--Body Mass Index
+ * This program asks user to input the height and weight, which can be in
+ * different unit and need to be converted into kg and meters.
+ * It then calculate the BMI and give the conclusion. (underweight, obese, etc.)
  */
 
 /* 
  * File:   main.c
- * Author: tianxiangchen
+ * Author: TianxiangChen
  *
  * Created on August 6, 2017, 12:31 AM
  */

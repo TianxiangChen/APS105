@@ -1,11 +1,11 @@
 /*
  * APS105 Lab2
- * Part3--Loan Calculator
+ * Part3--Loan Calculator (based on the formula provided in the handout)
  */
 
 /* 
  * File:   main.c
- * Author: tianxiangchen
+ * Author: TianxiangChen
  *
  * Created on August 5, 2017, 10:23 PM
  */

@@ -1,11 +1,14 @@
 /*
  * APS105 Lab3
  * Part1--Cartesian Coordinates
+ * The program asks to input the x,y coordinate and determine
+ * which quadrant it is at.It only consider the input value after rounding
+ * to 2 decimals.
  */
 
 /* 
  * File:   main.c
- * Author: tianxiangchen
+ * Author: TianxiangChen
  *
  * Created on August 5, 2017, 11:56 PM
  */
