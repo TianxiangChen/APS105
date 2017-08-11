@@ -1,7 +1,11 @@
 /* 
  * APS105 Lab5
  * Part3--Zeller's Algorithm
- * Author: tianxiangchen
+ * 
+ * Implement the formula from the handout to determine a particular date is 
+ * which day during a week.
+ * 
+ * Author: TianxiangChen
  *
  * Created on August 7, 2017, 12:33 AM
  */

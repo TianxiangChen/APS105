@@ -1,5 +1,13 @@
 /* 
  * APS105 Lab8--Linked Lists
+ * A book system implemented using linked list.
+ * It has functions:
+ * Insert a book
+ * Delete a book
+ * Search a book
+ * Display all book
+ * Search all books whose rating is higher or equal than an input value
+ * 
  * Author: TianxiangChen
  *
  * Created on August 7, 2017, 8:14 PM
@@ -165,9 +173,11 @@ BOOK* InsetHelper(BOOK* head, BOOK *data){
            return data;
         }
         else{
-            if(current->next!=NULL){
-                while(current->next->category!='F')   
+            while((current->next!=NULL)&&(!FoundPosition)){
+                if(current->next->category=='F')   
                     current=current->next;  
+                else
+                    FoundPosition=true;
             }
             data->next=current->next;
             current->next=data;
@@ -245,13 +255,13 @@ bool CheckDuplicate(BOOK* head, BOOK *data){
 BOOK* DeleteBook(BOOK *head){
     char book[MAX_LENGTH];
     printf("Please enter the book name you want to delete: ");
-    //getchar();
     safegets(book,MAX_LENGTH);
     BOOK* current=head;
     bool IsFind=false;
     if(head==NULL){
         printf("Empty list.\n");
-        return head;}
+        return head;
+    }
     else{
         if(strcmp(head->name,book)==0){//if the one is at the head
             BOOK *temp=head->next;
@@ -278,10 +288,10 @@ BOOK* DeleteBook(BOOK *head){
             printf("%s is not found.\n",book);
         return head;
     }
-    if(IsFind)
-        printf("The book %s has been deleted.\n", book);
-    else
-        printf("The book %s is not in the inventory.\n", book);
+//    if(IsFind)
+//        printf("The book %s has been deleted.\n", book);
+//    else
+//        printf("The book %s is not in the inventory.\n", book);
 }
 void SearchBook(BOOK *head){
     char input_book[MAX_LENGTH];

@@ -1,6 +1,12 @@
 /* 
  * APS105 Lab6-- Mastermind
- * Author: tianxiangchen
+ * User enter the pattern length followed by maximum allowed round and 
+ * the correct pattern.
+ * Then every time user guess the pattern, the program will return how many black
+ * peg(right char in right place) and white peg(wrong char in wrong place.
+ * If the user cannot get the right pattern within the max. allowed round, game
+ * ends.
+ * Author: TianxiangChen
  *
  * Created on August 7, 2017, 4:01 PM
  */
@@ -23,9 +29,6 @@ int main(int argc, char** argv) {
     printf("Enter the number of guesses: ");
     scanf("%d", &guess);
     
-    //Create the array for pattern_guess
-    //char pattern[guess+1][length];
-    //char result[guess][length];
     char** pattern;
     char** result;
     pattern=(char**)malloc((guess+1)*sizeof(char*));
@@ -44,7 +47,6 @@ int main(int argc, char** argv) {
     for(int round=1;((!IsWin)&&(round<=guess));round++){
         printf("Input a guess pattern with no spaces: ");
         scanf("%s",pattern[round]);
-        //printf("the intput is %s.\n",pattern[round]);
         IsWin=pattern_compare(pattern[0],pattern[round],result[round-1],length);
         printResultSeq(pattern,result,round,length);
     }
@@ -64,7 +66,6 @@ int main(int argc, char** argv) {
 }
 
 bool pattern_compare(char *real_pattern,char* input_pattern, char* result, int digit){
-    //printf("the digit is %d\n",digit);
     bool IsChecked_origin[digit];
     bool IsChecked_input[digit];
     
@@ -108,19 +109,15 @@ void printResult(char* result,int b,int w,int digit){
         if(b>0){
             result[i]='b';
             b--;
-            //printf("b");
         }
         else if(w>0){
             result[i]='w';
             w--;
-            //printf("w");
         }
         else{
             result[i]='.';
-            //printf(".");
         }
     }
-    //printf("\n");
 }
 
 void printResultSeq(char **input_pattern,char **result,int round,int length){

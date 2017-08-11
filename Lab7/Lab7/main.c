@@ -1,5 +1,7 @@
 /*
  * APS105 Lab7--The Mastermind Assistant (Recursion)
+ * This lab asks user to input the pattern length, guessed pattern and number
+ * of white and black pegs, using recursion to output all the possible solution 
  */
 
 /* 
@@ -45,7 +47,6 @@ void MastermindAssist(char* guess, int black, int white, int length){
         IsUsed[i]=false;
     }
     test[length]='\0';
-    //printf("%s",test);
     printf("\n");
     MastermindAssistHelper(guess,test,IsUsed,black,white,yellow,0,length,length);
     
@@ -100,18 +101,13 @@ void MastermindAssistHelper(char* guess, char test[], bool IsUsed[], int black, 
             IsUsed[digit]=false;
             test[digit]=temp;
             }
-            //else
-              //  return;
         }
         if(white > 0){
             for(int i=0;i<length;i++){
                 char temp=test[digit];
-                if((i!=digit)&&(!IsUsed[i])&&(test[digit]!=guess[i])){
-                                      
+                if((i!=digit)&&(!IsUsed[i])&&(test[digit]!=guess[i])){                        
                     test[digit]=guess[i];
-                    
                     IsUsed[i]=true;
-                    //printf("%s\n",test);
                     MastermindAssistHelper(guess, test, IsUsed, black,
                             white-1, yellow, digit+1,size-1,length);
                     IsUsed[i]=false;

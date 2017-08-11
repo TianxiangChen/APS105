@@ -14,7 +14,7 @@ Name: 1988,Wo xiang he zhe ge shi jie tan tan Author: Han Han Category: F Rating
 Name: Shi Ji Author: Sima Qian Category: H Rating: 8
 Name: San Ge Dai Biao Author: Jiang Zemin Category: P Rating: 5
 Name: Tang Shi San Bai Shou Author: Unknown Category: A Rating: 7
-Name: Cangjing Kong Xie Zhen Ji Author: CangJing Kong Category: A Rating: 5
+Name: He Xie Ci Xie Zhen Ji Author: He Xie Ci Category: A Rating: 5
 Command?: 
 Please enter an integer between 1 and 10. 
 The system will show the books have a rating higher or equal to that number: Name: 1988,Wo xiang he zhe ge shi jie tan tan Author: Han Han Category: F Rating: 8
@@ -32,14 +32,14 @@ Name: 1988,Wo xiang he zhe ge shi jie tan tan Author: Han Han Category: F Rating
 Name: Shi Ji Author: Sima Qian Category: H Rating: 8
 Name: Tang Shi San Bai Shou Author: Unknown Category: A Rating: 7
 Command?: 
-Please enter the book name you want to delete: Shanghai Xiao Bao Bei is not found.
+Please enter the book name you want to delete: He Xie Ci is not found.
 Command?: 
 Name: San Chong Men Author: Han Han Category: F Rating: 7
 Name: 1988,Wo xiang he zhe ge shi jie tan tan Author: Han Han Category: F Rating: 8
 Name: Shi Ji Author: Sima Qian Category: H Rating: 8
 Name: San Ge Dai Biao Author: Jiang Zemin Category: P Rating: 5
 Name: Tang Shi San Bai Shou Author: Unknown Category: A Rating: 7
-Name: Cangjing Kong Xie Zhen Ji Author: CangJing Kong Category: A Rating: 5
+Name: He Xie Ci Xie Zhen Ji Author: He Xie Ci Category: A Rating: 5
 Command?: 
 Please enter the book name you want to delete: Shi Ji is deleted.
 Command?: 
@@ -47,13 +47,13 @@ Name: San Chong Men Author: Han Han Category: F Rating: 7
 Name: 1988,Wo xiang he zhe ge shi jie tan tan Author: Han Han Category: F Rating: 8
 Name: San Ge Dai Biao Author: Jiang Zemin Category: P Rating: 5
 Name: Tang Shi San Bai Shou Author: Unknown Category: A Rating: 7
-Name: Cangjing Kong Xie Zhen Ji Author: CangJing Kong Category: A Rating: 5
+Name: He Xie Ci Xie Zhen Ji Author: He Xie Ci Category: A Rating: 5
 Command?: 
 Please enter the book name you want to delete: Command?: 
 Name: 1988,Wo xiang he zhe ge shi jie tan tan Author: Han Han Category: F Rating: 8
 Name: San Ge Dai Biao Author: Jiang Zemin Category: P Rating: 5
 Name: Tang Shi San Bai Shou Author: Unknown Category: A Rating: 7
-Name: Cangjing Kong Xie Zhen Ji Author: CangJing Kong Category: A Rating: 5
+Name: He Xie Ci Xie Zhen Ji Author: He Xie Ci Category: A Rating: 5
 Command?: 
 Please enter the book name you want to search: The book San Chong Men is not in the inventory.
 Command?: 
@@ -62,7 +62,7 @@ Command?:
 Name: 1988,Wo xiang he zhe ge shi jie tan tan Author: Han Han Category: F Rating: 8
 Name: San Ge Dai Biao Author: Jiang Zemin Category: P Rating: 5
 Name: Tang Shi San Bai Shou Author: Unknown Category: A Rating: 7
-Name: Cangjing Kong Xie Zhen Ji Author: CangJing Kong Category: A Rating: 5
+Name: He Xie Ci Xie Zhen Ji Author: He Xie Ci Category: A Rating: 5
 Command?: 
 The inventory is empty now.
 Program ends.

@@ -1,7 +1,13 @@
 /* 
  * APS105 Lab5
  * Part1--Data Encryption
- * Author: tianxiangchen
+ * 
+ * This program asks user to input an integer greater than 99999.
+ * Then it will perform:
+ * 1. Add 4 to each digit. If the result is greater than 10, then minus 10
+ * 2. Shift each digit to left by one place.
+ * Finally output the result
+ * Author: TianxiangChen
  *
  * Created on August 6, 2017, 9:50 PM
  */
