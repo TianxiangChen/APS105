@@ -1,7 +1,11 @@
 /* 
  * APS105 Lab4
  * Part1--Making Change
- * Author: tianxiangchen
+ * The program asks user to input an integer number of money less than 100.
+ * It returns the combination of quarter, dime, nickel and cent with minimum
+ * number.
+ * The difficulty will be at displaying the result. 
+ * Author: TianxiangChen
  *
  * Created on August 6, 2017, 4:32 PM
  */

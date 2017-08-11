@@ -1,7 +1,8 @@
 /* 
  * APS105 Lab4
  * Part2--Statistics
- * Author: tianxiangchen
+ * Using the formula provided in the handout to output mean,std, min and max.
+ * Author: TianxiangChen
  *
  * Created on August 6, 2017, 5:06 PM
  */
