@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
             "Some common ones are:\n"
             "  to print \", use \\\"\n"
             "  to print \\, use \\\\\n"
-            "  to jump to a new line, use \\n");
+            "  to jump to a new line, use \\n\n");
     return (EXIT_SUCCESS);
 }
 
